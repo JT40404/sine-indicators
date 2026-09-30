@@ -1,7 +1,7 @@
 /*
  * SINE Cycle Bands: reference implementation (plain JS, no dependencies).
  *
- * The same math as sine-cycle-bands.pine, so the two give the same numbers.
+ * The same math as indicator/sine-cycle-bands.pine, so the two give the same numbers.
  * On every bar, using only the last `length` closes up to and including that bar:
  *   log price → least-squares line (trend) → Hann window → DFT amplitudes
  *   → the strongest `rhythms` spectral peaks (≥ 2 cycles and ≥ 4 bars per cycle in the window),

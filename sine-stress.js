@@ -1,7 +1,7 @@
 /*
  * SINE Stress: reference implementation (plain JS, no dependencies).
  *
- * A per-bar version of the SINE site's Stress check (stressIndex() in assets/fourier.js of github.com/JT40404/sine), after
+ * A per-bar version of the SINE site's Stress check (stressIndex() in assets/fourier.js), after
  * Jun, Ahn, Kim & Kim (2019), "Signal analysis of global financial crises using Fourier series", Physica A 526:121015.
  * They found the low-frequency Fourier components of index returns surge ahead of financial crises.
  *

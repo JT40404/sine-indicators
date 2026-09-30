@@ -12,7 +12,7 @@
 //   History  = share of the last `History` bars with a lower value
 //   Level    = High (p ≤ 0.05 and History ≥ 80%) / Elevated (p ≤ 0.10 or History ≥ 90%) / Calm
 // The line is green when price rose over the window and red when it fell (the direction of the pressure).
-// It flags pressure, not direction or timing. Same math as sine-stress.js. Measurement, not financial advice.
+// It flags pressure, not direction or timing. Same math as indicator/sine-stress.js. Measurement, not financial advice.
 
 //@version=6
 indicator("SINE Stress", shorttitle = "SINE Stress", overlay = false, precision = 2, max_bars_back = 2100)

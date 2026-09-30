@@ -9,7 +9,7 @@
 //   Bands    = midline × exp(± mult × σ), σ = what the rhythms leave unexplained
 //   Strength = share of trend-removed movement the rhythms explain
 // Nothing uses future bars, so past values never repaint. The projection is drawn on the last bar only.
-// Same math as sine-bands.js. Measurement, not financial advice.
+// Same math as indicator/sine-bands.js in the SINE repository. Measurement, not financial advice.
 
 //@version=6
 indicator("SINE Cycle Bands", shorttitle = "SINE", overlay = true, max_bars_back = 520, max_polylines_count = 6)

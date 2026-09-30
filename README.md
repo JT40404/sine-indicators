@@ -62,7 +62,7 @@ This is measurement, not financial advice.
 
 ## SINE Stress
 
-SINE Stress is the site's **Stress check** (`stressIndex()` in [`assets/fourier.js`](https://github.com/JT40404/sine/blob/main/assets/fourier.js)), computed on every bar so you can see its history and set alerts on it. It follows Jun, Ahn, Kim & Kim (2019), *Signal analysis of global financial crises using Fourier series*, Physica A 526, 121015 ([doi:10.1016/j.physa.2019.04.251](https://doi.org/10.1016/j.physa.2019.04.251)). They found that the low-frequency Fourier components of index returns surged ahead of global financial crises.
+SINE Stress is the site's **Stress check** (`stressIndex()` in `assets/fourier.js`), computed on every bar so you can see its history and set alerts on it. It follows Jun, Ahn, Kim & Kim (2019), *Signal analysis of global financial crises using Fourier series*, Physica A 526, 121015 ([doi:10.1016/j.physa.2019.04.251](https://doi.org/10.1016/j.physa.2019.04.251)). They found that the low-frequency Fourier components of index returns surged ahead of global financial crises.
 
 **On every bar**, using the last 32 log returns (16 and 64 are also available):
 
